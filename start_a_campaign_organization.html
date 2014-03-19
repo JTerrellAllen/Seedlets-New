@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seedlets</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<!-- Header and Nav -->
+
+<div class="logo">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><img src="assets/seedlets-logo.png" alt="logo"></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+      <!-- Right Nav Section -->
+      <ul class="right">
+      <li class="has-dropdown">
+          <a href="#">Menu</a>
+          <ul class="dropdown">
+            <li><a href="#simple1">Link</a></li>
+            <li><a href="#simple2">First link in dropdown</a></li>
+            <li><a href="#simple2Tab">First link in dropdown</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+
+<!-- End of Header and Nav -->
+
+<!-- Form -->
+
+<div class="row">
+  <div class="title">
+  <h2>Lorem ipsum dolor</h2>
+  </div>
+</div>
+<form>
+  <div class="row">
+    <div class="small-8 columns">
+      <div class="row">
+        <div class="small-3 columns">
+          <label for="right-label" class="right inline">Campaign Image</label>
+        </div>
+        <div class="small-9 columns">
+          <input type="text" id="right-label" placeholder="Select an image from your computer">
+        </div>
+      </div>
+    </div>
+    <div class="small-8 columns">
+      <div class="row">
+        <div class="small-3 columns">
+          <label for="right-label" class="right inline">Website</label>
+        </div>
+        <div class="small-9 columns">
+          <input type="text" id="right-label" placeholder="www.website.com">
+        </div>
+      </div>
+    </div>
+    <div class="small-8 columns">
+      <div class="row">
+        <div class="small-3 columns">
+          <label for="right-label" class="right inline">Social Media</label>
+        </div>
+        <div class="small-9 columns">
+          <input type="text" id="right-label" placeholder="+">
+        </div>
+      </div>
+    </div>
+    <div class="small-8 columns">
+      <div class="row">
+        <div class="small-3 columns">
+          <label for="right-label" class="right inline">Organization Bio</p></label>
+        </div>
+        <div class="small-9 columns">
+          <textarea placeholder="500/500"></textarea>
+        </div>
+      </div>
+    </div>
+</form>
+
+<!-- End of Form -->
+
+<!-- Buttons -->
+
+<div class="row">
+  <div class="large-9 large-offset-5 columns">
+    <div class="button-group">
+      <a href="#" class="button [goback]">Go Back</a>
+      <a href="#" class="button [save]">Save</a>
+    </div>
+  </div>
+</div>
+
+<!-- End of Buttons -->
+
+<!-- Footer -->
+
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr />
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Copyright Seedlets.</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="#">Start a Campaign</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    </script>
+    <script src="js/app.js"></script>
+    <script>
+      $(document).foundation({
+        tab: {
+          callback : function (tab) {
+            console.log(tab);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
+

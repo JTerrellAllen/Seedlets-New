@@ -1,0 +1,252 @@
+$include-html-button-classes: $include-html-classes;
+
+// Base colors
+$base-color: #333;          // black
+$brand-color: #C5E3FF;      // light blue
+$secondary-color: #668DB3;  // dark blue
+$action-color: #85CCC2;     // green
+$accent-color: #B38F55;     // gold
+
+// Font size
+$tiny-font-size: 12px;
+$tiny-font-leading: 0.75;
+$small-font-size: 14px;
+$small-font-leading: 0.75;
+$base-font-size: 18px;
+$base-font-leading: 1;
+$medium-font-size: 24px;
+$medium-font-leading: 1.25;
+$large-font-size: 32px;
+$large-font-leading: 1.25;
+$xlarge-font-size: 43px;
+$xlarge-font-leading: 1.25;
+$xxlarge-font-size: 100px;
+$xxlarge-font-leading: 1.25;
+
+// Typeface
+
+$main-typeface: "Myanmar MN", Helvetica, sans-serif;
+$secondary-typeface: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+h1 {
+  font: $main-typeface;
+  color: #fff;
+  font-size: $xxlarge-font-size;
+}
+
+h2 {
+  font: $main-typeface;
+  color: $secondary-color;
+  font-size: $large-font-size;
+}
+
+h3 {
+  font: $main-typeface;
+  color: $base-color;
+  font-size: $medium-font-size
+}
+
+h4 {
+  font: $secondary-typeface;
+  font-size: $base-font-size
+}
+
+h5 {
+  font: $secondary-typeface;
+  font-size: $small-font-size
+}
+
+p {
+  font: $secondary-typeface;
+  color: $base-color;
+  font-size: $tiny-font-size;
+}
+
+a {
+  color: $action-color;
+}
+
+// Header
+
+.top-bar {
+  background: #c5e3ff;
+}
+.top-bar-section {
+  li {
+    a {
+      &:not(.button) {
+        background:none;
+      }
+    }
+  }
+}
+.top-bar-section > li > .has-dropdown {
+  background: #c5e3ff;
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #c5e3ff;
+}
+
+.hero {
+  background-image: url('../assets/six-happy-kids.png');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 600px;
+  h1 {
+      margin: 450px 0 0 50px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+}
+
+// Watch Video
+
+.start-a-campaign {
+  background: $secondary-color;
+}
+
+#watch-video p {
+  margin: 5px;
+  margin-bottom: 5px;
+  font-size: $medium-font-size;
+  text-align: center;
+  background: $secondary-color;
+  color: #ffffff;
+  }
+.start-a-campaign a {
+    margin-left: 10px;
+  }
+
+
+// Ending Soon
+
+.ending-soon h2 {
+  margin-top: 80px;
+  font-size: $medium-font-size;
+  }
+
+.campaign {
+  padding-top: 10px;
+}
+  .panel {
+    background: #ffffff;
+  }
+  .progress-bar-wrap {
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 180px;
+    height: 25px;
+    background: $action-color;
+    padding: 0;
+    margin-top: 5px;
+  }
+  .pledged-amount {
+    font: $secondary-typeface;
+    background: #358e81;
+    // border-radius: 4px;
+    height: 25px;
+  }
+  .amount {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font: $secondary-typeface;
+    font-size: $small-font-size;
+
+  }
+
+// New Campaigns
+
+.new-campaigns h2 {
+  font-size: $medium-font-size;
+  }
+
+.campaign {
+  padding-top: 10px;
+}
+  .panel {
+    background: #ffffff;
+  }
+  .progress-bar-wrap {
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 180px;
+    height: 25px;
+    background: $action-color;
+    padding: 0;
+    margin-top: 5px;
+  }
+  .pledged-amount {
+    font: $secondary-typeface;
+    background: #358e81;
+    // border-radius: 4px;
+    height: 25px;
+  }
+  .amount {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font: $secondary-typeface;
+    font-size: $small-font-size;
+  }
+
+
+
+
+// Campaign Profile //
+
+// Header
+
+
+.campaign-title {
+  line-height: $base-font-leading;
+}
+.campaign-title h2 {
+  text-align: center;
+  line-height: $base-font-leading;
+}
+.campaign-title h5 {
+    text-align: center;
+    line-height: $base-font-leading;
+  }
+
+// Sidebar
+
+.sidebar p {
+  line-height: $base-font-leading;
+}
+
+
+
+
+// Footer
+
+.footer {
+  height: 30px;
+  background-color: $secondary-color;
+}
+.footer p {
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  #copyright {
+  margin: 5px 0 0 0;
+}
+  .inline-list {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.footer a {
+  color: #ffffff;
+  margin: 5px 0 0 0;
+}
+}
